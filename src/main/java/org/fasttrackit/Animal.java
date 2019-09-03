@@ -9,4 +9,7 @@ public class Animal {
         String favoriteFood;
         String favoriteToy;
         String favoriteActivity;
+        int cleanProcentage;
+        int waterProcentage;
+        int energyProcentage;
     }

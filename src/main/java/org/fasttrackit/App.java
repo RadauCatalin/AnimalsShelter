@@ -24,7 +24,6 @@ public class App {
         dogFood.name = "Pedigree";
         dogFood.amount = 30;
         dogFood.price = 2;
-        dogFood.stockProcentage = 100;
         Date date = new Date(120, Calendar.JULY ,19);
         //Here year =1900+120
         System.out.println("Valability:"+ date);
