@@ -1,6 +1,6 @@
 package org.fasttrackit;
 
 public class ShelterKeeper {
-        String name;
-        int moneyAmount;
-    }
+    String name;
+    int moneyAmount;
+}

@@ -4,13 +4,13 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class App {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         System.out.println();
         ShelterKeeper shelterKeeper = new ShelterKeeper();
         shelterKeeper.name = "Catalin";
         shelterKeeper.moneyAmount = 1500;
 
-        Animal dog = new Animal();
+        Animal dog = new Animal("Thor");
         dog.name = "Thor";
         dog.age = 1.3;
         dog.healthProcentage = 90;
@@ -20,13 +20,13 @@ public class App {
         dog.favoriteToy = "Bone toy";
         dog.favoriteActivity = "Walking";
 
-        Food dogFood = new Food();
+        Food dogFood = new Food("Pedigree");
         dogFood.name = "Pedigree";
         dogFood.amount = 30;
         dogFood.price = 2;
-        Date date = new Date(120, Calendar.JULY ,19);
+        Date date = new Date(120, Calendar.JULY, 19);
         //Here year =1900+120
-        System.out.println("Valability:"+ date);
+        System.out.println("Valability:" + date);
 
 
         Veterinarian veterinarian = new Veterinarian();
