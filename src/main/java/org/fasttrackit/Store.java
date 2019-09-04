@@ -8,3 +8,4 @@ public class Store {
     int toyPrice;
     int medicinePrice;
 }
+

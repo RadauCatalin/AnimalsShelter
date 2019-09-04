@@ -5,6 +5,7 @@ public class Cat extends Animal {
     int pawsCount;
     Food food;
 
+
     public Cat(Food food) {
         this.food = food;
     }

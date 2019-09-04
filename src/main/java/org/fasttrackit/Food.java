@@ -8,6 +8,7 @@ public class Food {
     int amount;
     Date date = new Date();
 
+
     public Food(String name) {
         this.name = name;
     }

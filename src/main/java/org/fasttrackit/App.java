@@ -28,7 +28,6 @@ public class App {
         //Here year =1900+120
         System.out.println("Valability:" + date);
 
-
         Veterinarian veterinarian = new Veterinarian();
         veterinarian.name = "Harold";
         veterinarian.speciality = "Dogs";

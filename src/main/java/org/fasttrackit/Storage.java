@@ -13,3 +13,4 @@ public class Storage {
     int medicineAcmount;
     int toysAmount;
 }
+
