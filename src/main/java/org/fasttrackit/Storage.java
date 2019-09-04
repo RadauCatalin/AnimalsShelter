@@ -11,4 +11,5 @@ public class Storage {
     int toysCapacity;
     int foodAmount;
     int medicineAcmount;
+    int toysAmount;
 }

@@ -13,7 +13,7 @@ public class App {
         Animal dog = new Animal();
         dog.name = "Thor";
         dog.age = 1.3;
-        dog.healtProcentage = 90;
+        dog.healthProcentage = 90;
         dog.happyProcentage = 80;
         dog.foodProcentage = 70;
         dog.favoriteFood = "Dog food";

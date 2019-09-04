@@ -3,13 +3,12 @@ package org.fasttrackit;
 public class Animal {
         String name;
         double age;
-        int healtProcentage;
+        int healthProcentage;
         int foodProcentage;
         int happyProcentage;
         String favoriteFood;
         String favoriteToy;
         String favoriteActivity;
         int cleanProcentage;
-        int waterProcentage;
         int energyProcentage;
     }
