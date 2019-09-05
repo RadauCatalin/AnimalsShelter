@@ -16,7 +16,4 @@ public class Animal {
         this.name = name;
     }
 
-
-    public Animal() {
-    }
 }

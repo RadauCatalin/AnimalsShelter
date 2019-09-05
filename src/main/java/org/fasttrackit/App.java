@@ -10,7 +10,7 @@ public class App {
         shelterKeeper.name = "Catalin";
         shelterKeeper.moneyAmount = 1500;
 
-        Animal dog = new Animal("Thor");
+        Dog dog = new Dog("Thor");
         dog.name = "Thor";
         dog.age = 1.3;
         dog.healthProcentage = 90;
@@ -20,16 +20,24 @@ public class App {
         dog.favoriteToy = "Bone toy";
         dog.favoriteActivity = "Walking";
 
-        Food dogFood = new Food("Pedigree");
-        dogFood.name = "Pedigree";
-        dogFood.amount = 30;
-        dogFood.price = 2;
+        Food food = new Food("Pedigree");
+        food.name = "Pedigree";
+        food.amount = 30;
+        food.price = 2;
         Date date = new Date(120, Calendar.JULY, 19);
         //Here year =1900+120
         System.out.println("Valability:" + date);
 
+        Cat cat = new Cat("Tom");
+        cat.name = "Tom";
+        cat.age = 1.1;
+        cat.healthProcentage = 80;
+
+
+
         Veterinarian veterinarian = new Veterinarian();
         veterinarian.name = "Harold";
         veterinarian.speciality = "Dogs";
+
     }
 }
