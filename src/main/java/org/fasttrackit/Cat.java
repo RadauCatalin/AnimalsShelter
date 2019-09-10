@@ -1,11 +1,27 @@
 package org.fasttrackit;
 
 public class Cat extends Animal {
-    int waterProcentage;
-    int pawsCount;
+   private int waterProcentage;
+   private int pawsCount;
 
 
     public Cat(String name) {
         super(name);
+    }
+
+    public int getWaterProcentage() {
+        return waterProcentage;
+    }
+
+    public void setWaterProcentage(int waterProcentage) {
+        this.waterProcentage = waterProcentage;
+    }
+
+    public int getPawsCount() {
+        return pawsCount;
+    }
+
+    public void setPawsCount(int pawsCount) {
+        this.pawsCount = pawsCount;
     }
 }

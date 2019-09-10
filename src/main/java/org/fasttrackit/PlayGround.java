@@ -2,5 +2,13 @@ package org.fasttrackit;
 
 
 public class PlayGround {
-    int animalCapacity;
+   private int animalCapacity;
+
+    public int getAnimalCapacity() {
+        return animalCapacity;
+    }
+
+    public void setAnimalCapacity(int animalCapacity) {
+        this.animalCapacity = animalCapacity;
+    }
 }
