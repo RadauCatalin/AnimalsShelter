@@ -7,6 +7,10 @@ public class Veterinarian {
     public String getName() {
         return name;
     }
+    public void cureAnimale(Animal animal, ShelterKeeper shelterKeeper){
+        System.out.println(shelterKeeper.getName() + " took the dog to Dr." + name );
+        animal.setHealthProcentage(100);
+    }
 
     public void setName(String name) {
         this.name = name;
