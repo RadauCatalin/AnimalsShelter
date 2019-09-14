@@ -1,16 +1,17 @@
 package org.fasttrackit;
 
 public class Animal {
-   private String name;
-   private double age;
-   private int healthProcentage;
-   private int foodProcentage;
-   private int happyProcentage;
-   private String favoriteFood;
-   private String favoriteToy;
-   private String favoriteActivity;
-   private int cleanProcentage;
-   private int energyProcentage;
+    private String name;
+    private double age;
+    private int healthProcentage;
+    private int foodProcentage;
+    private int happyProcentage;
+    private String favoriteFood;
+    private String favoriteToy;
+    private String favoriteActivity;
+    private int cleanProcentage;
+    private int energyProcentage;
+
 
     public Animal(String name) {
 
@@ -95,5 +96,9 @@ public class Animal {
 
     public void setEnergyProcentage(int energyProcentage) {
         this.energyProcentage = energyProcentage;
+    }
+
+    public void isHappy() {
+        if (getHappyProcentage() > 80) ;
     }
 }

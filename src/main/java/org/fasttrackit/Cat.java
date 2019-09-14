@@ -1,9 +1,8 @@
 package org.fasttrackit;
 
 public class Cat extends Animal {
-   private int waterProcentage;
-   private int pawsCount;
-
+    private int waterProcentage;
+    private int pawsCount;
 
     public Cat(String name) {
         super(name);
@@ -23,5 +22,11 @@ public class Cat extends Animal {
 
     public void setPawsCount(int pawsCount) {
         this.pawsCount = pawsCount;
+    }
+
+    @Override
+    public void isHappy() {
+        System.out.println(getName() + " purrs");
+        super.isHappy();
     }
 }

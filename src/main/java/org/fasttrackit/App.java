@@ -13,13 +13,12 @@ public class App {
         Dog dog = new Dog("Thor");
         dog.setName("Thor");
         dog.setAge(1.3);
-        dog.setHealthProcentage(90);
+        dog.setHealthProcentage(33);
         dog.setHappyProcentage(80);
         dog.setFoodProcentage(35);
         dog.setFavoriteFood("Pedigree");
         dog.setFavoriteToy("Bone toy");
         dog.setFavoriteActivity("Walking");
-
 
 
         Food food = new Food("Pedigree");
@@ -34,6 +33,8 @@ public class App {
         cat.setName("Tom");
         cat.setAge(1.1);
         cat.setHealthProcentage(80);
+        cat.setHappyProcentage(45);
+        cat.isHappy();
 
         System.out.println(dog.getName() + " food procentage is: " + dog.getFoodProcentage());
         shelterKeeper.feedAnimal(dog, food);
@@ -43,6 +44,7 @@ public class App {
         shelterKeeper.playWithAnimal(dog);
         System.out.println(dog.getName() + " happiness procentage is: " + dog.getHappyProcentage());
 
+
         Veterinarian veterinarian = new Veterinarian();
         veterinarian.setName("Harold");
         veterinarian.setSpeciality("Dogs");
@@ -50,5 +52,9 @@ public class App {
         System.out.println(dog.getName() + " health procentage is " + dog.getHealthProcentage());
         veterinarian.cureAnimale(dog, shelterKeeper);
         System.out.println(dog.getName() + " health procentage is " + dog.getHealthProcentage());
+        dog.isHappy();
+        Animal parrot = new Parrot("Paulie");
+        parrot.setHappyProcentage(100);
+        parrot.isHappy();
     }
 }

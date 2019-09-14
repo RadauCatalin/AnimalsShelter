@@ -23,5 +23,11 @@ public class Parrot extends Animal {
     public void setWingAcount(int wingAcount) {
         this.wingAcount = wingAcount;
     }
+
+    @Override
+    public void isHappy() {
+        System.out.println(getName() + " is singing");
+        super.isHappy();
+    }
 }
 

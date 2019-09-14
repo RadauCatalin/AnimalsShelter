@@ -25,5 +25,11 @@ public class Dog extends Animal {
     public void setPawsCount(int pawsCount) {
         this.pawsCount = pawsCount;
     }
+
+    @Override
+    public void isHappy() {
+        System.out.println(getName() + " is barking");
+        super.isHappy();
+    }
 }
 
