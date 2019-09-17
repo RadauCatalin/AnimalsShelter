@@ -12,7 +12,7 @@ public class App {
         dog.setAge(1.3);
         dog.setHealthProcentage(33);
         dog.setHappyProcentage(80);
-        dog.setFoodProcentage(35);
+        dog.setFoodProcentage(86);
         dog.setFavoriteFood("Pedigree");
         dog.setFavoriteToy("Bone toy");
         dog.setFavoriteActivity("Walking");

@@ -5,8 +5,11 @@ public class ShelterKeeper {
    private int moneyAmount;
 
    public void feedAnimal(Animal animal, Food food) {
+       if (animal.getFoodProcentage() > 85) {
+           System.out.println(animal.getName() + " is satiated.");
+       }else{
        System.out.println(name + " just gave some " + food.getName() + " food to " + animal.getName());
-       animal.setFoodProcentage(100);
+       animal.setFoodProcentage(animal.getFoodProcentage() + 15);}
    }
        public void playWithAnimal(Animal animal){
            System.out.println(name + " plays " + animal.getFavoriteActivity() + " with " + animal.getName());
