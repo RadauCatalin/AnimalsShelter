@@ -11,6 +11,7 @@ public class Animal {
     private String favoriteActivity;
     private int cleanProcentage;
     private int energyProcentage;
+    private String activity;
 
 
     public Animal(String name) {
@@ -100,5 +101,13 @@ public class Animal {
 
     public void isHappy() {
         if (getHappyProcentage() > 80) ;
+    }
+
+    public String getActivity() {
+        return activity;
+    }
+
+    public void setActivity(String activity) {
+        this.activity = activity;
     }
 }

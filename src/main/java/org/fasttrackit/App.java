@@ -12,15 +12,15 @@ public class App {
         dog.setAge(1.3);
         dog.setHealthProcentage(33);
         dog.setHappyProcentage(80);
-        dog.setFoodProcentage(86);
+        dog.setFoodProcentage(65);
         dog.setFavoriteFood("Pedigree");
         dog.setFavoriteToy("Bone toy");
         dog.setFavoriteActivity("Walking");
+        dog.setEnergyProcentage(55);
 
 
-        Food food = new Food("Pedigree");
-        food.setName("Pedigree");
-        food.setAmount(30);
+        Food food = new Food("DogFood");
+        food.setAmount(3);
         food.setPrice(2);
 
 
